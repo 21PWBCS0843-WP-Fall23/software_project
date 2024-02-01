@@ -1,9 +1,9 @@
 for (var i = 1; i < product.length; i++) {
     document.getElementById("select1").innerHTML += `
-    <option value="${i}">${product[i].title}</option>
+    <option value="${i}">${product[i].Manufecturer}</option>
     `;
     document.getElementById("select2").innerHTML += `
-    <option value="${i}">${product[i].title}</option>
+    <option value="${i}">${product[i].Manufecturer}</option>
     `;
 }
 
