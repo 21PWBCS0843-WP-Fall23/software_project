@@ -18,7 +18,7 @@
     <!-- 
     - custom css link
   -->
-    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./SE-PROJECT//assets/css/style.css" />
 
     <!-- 
     - google font link
@@ -41,27 +41,32 @@
         <div class="overlay" data-overlay></div>
 
         <div class="logo-container">
-          <a href="index.html" class="logo">
+          <a href="index.php" class="logo">
             <img src="./assets/images/car-logo.png" alt="Ridex logo" />
           </a>
-          <a href="index.html"><p class="logo-text" style="font-size: 40px; font-weight: bolder;">Analytica</p></a>
+          <a href="index.php"><p class="logo-text">Analytica</p></a>
         </div>
 
         <nav class="navbar" data-navbar>
           <ul class="navbar-list">
             <li>
-              <a href="index.html" class="navbar-link" data-nav-link>Home</a>
+              <a href="index.php" class="navbar-link" data-nav-link>Home</a>
             </li>
             <li>
-              <a href="brands.html" class="navbar-link" data-nav-link>Brands</a>
+              <a href="../brands.html" class="navbar-link" data-nav-link>Brands</a>
             </li>
             <li>
-              <a href="about.html" class="navbar-link" data-nav-link
+              <a href="./SE-PROJECT/services.html" class="navbar-link" data-nav-link
+                >Services</a
+              >
+            </li>
+            <li>
+              <a href="./SE-PROJECT/about.html" class="navbar-link" data-nav-link
                 >About Us</a
               >
             </li>
             <li>
-              <a href="contact.php" class="navbar-link" data-nav-link
+              <a href="./SE-PROJECT/contact.php" class="navbar-link" data-nav-link
                 >Contact</a
               >
             </li>
@@ -69,13 +74,13 @@
         </nav>
 
         <div class="header-actions">
-          <a href="./registation/registration.php" class="btn" aria-labelledby="aria-label-txt">
+          <a href="./SE-PROJECT/brands.html" class="btn" aria-labelledby="aria-label-txt">
             <ion-icon name="car-outline"></ion-icon>
 
-            <span id="aria-label-txt">Sign up</span>
+            <span id="aria-label-txt">Explore cars</span>
           </a>
 
-          <a href="contact.php" class="btn user-btn" aria-label="Profile">
+          <a href="./SE-PROJECT/contact.php" class="btn user-btn" aria-label="Profile">
             <ion-icon name="person-outline"></ion-icon>
           </a>
 
@@ -101,16 +106,58 @@
         <section class="section hero" id="home">
           <div class="container">
             <div class="hero-content">
-              <h2 class="h1 hero-title" style="font-size: 45px;">Fuel Efficiency Fanatics: <br> Find the perfect car for your budget and the planet.</h2>
+              <h2 class="h1 hero-title">The easy way to takeover a lease</h2>
 
               <p class="hero-text">
-                Live in Peshawar, Khyber Pakhtunkhwa!
+                Live in New York, New Jerset and Connecticut!
               </p>
             </div>
 
             <div class="hero-banner"></div>
 
-            
+            <form action="" class="hero-form">
+              <div class="input-wrapper">
+                <label for="input-1" class="input-label"
+                  >Car, model, or brand</label
+                >
+
+                <input
+                  type="text"
+                  name="car-model"
+                  id="input-1"
+                  class="input-field"
+                  placeholder="What car are you looking?"
+                />
+              </div>
+
+              <div class="input-wrapper">
+                <label for="input-2" class="input-label"
+                  >Max. monthly payment</label
+                >
+
+                <input
+                  type="text"
+                  name="monthly-pay"
+                  id="input-2"
+                  class="input-field"
+                  placeholder="Add an amount in $"
+                />
+              </div>
+
+              <div class="input-wrapper">
+                <label for="input-3" class="input-label">Make Year</label>
+
+                <input
+                  type="text"
+                  name="year"
+                  id="input-3"
+                  class="input-field"
+                  placeholder="Add a minimal make year"
+                />
+              </div>
+
+              <button type="submit" class="btn">Search</button>
+            </form>
           </div>
         </section>
 
@@ -600,154 +647,144 @@
   -->
 
     <footer class="footer">
-    <div class="container">
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <a href="#" class="logo">
+              <img src="./assets/images/logo.svg" alt="Ridex logo" />
+            </a>
 
-      <div class="footer-top">
+            <p class="footer-text">
+              Search for cheap rental cars in New York. With a diverse fleet of
+              19,000 vehicles, Waydex offers its consumers an attractive and fun
+              selection.
+            </p>
+          </div>
 
-        <div class="footer-brand">
-          <a href="#" class="logo">
-            <!-- <img src="./assets/images/logo.svg" alt="Ridex logo"> -->
-            <h1>Analytica</h1>
-          </a>
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title">Company</p>
+            </li>
 
-          <p class="footer-text">
-            A HUNDRED ON THE DASH GET ME CLOSE TO GOD, WE DON'T PRAY FOR LOVE WE JUST PRAY FOR CARS
-          </p>
+            <li>
+              <a href="#" class="footer-link">About us</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Pricing plans</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Our blog</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Contacts</a>
+            </li>
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title">Support</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Help center</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Ask a question</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Privacy policy</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Terms & conditions</a>
+            </li>
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title">Neighborhoods in New York</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Manhattan</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Central New York City</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Upper East Side</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Queens</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Theater District</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Midtown</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">SoHo</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Chelsea</a>
+            </li>
+          </ul>
         </div>
 
-        <ul class="footer-list">
+        <div class="footer-bottom">
+          <ul class="social-list">
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
 
-          <li>
-            <p class="footer-list-title">Company</p>
-          </li>
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
 
-          <li>
-            <a href="#" class="footer-link">About us</a>
-          </li>
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
 
-          <li>
-            <a href="#" class="footer-link">Pricing plans</a>
-          </li>
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
 
-          <li>
-            <a href="#" class="footer-link">Our blog</a>
-          </li>
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-skype"></ion-icon>
+              </a>
+            </li>
 
-          <li>
-            <a href="#" class="footer-link">Contacts</a>
-          </li>
-
-        </ul>
-
-        <ul class="footer-list">
-
-          <li>
-            <p class="footer-list-title">Support</p>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Help center</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Ask a question</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Privacy policy</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Terms & conditions</a>
-          </li>
-
-        </ul>
-
-        <ul class="footer-list">
-
-          <li>
-            <p class="footer-list-title">Neighborhoods in Peshawar</p>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Kohat</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Islamabad</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Karachi</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Lahore</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Kashmir</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Sialkot</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Multan</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Gawadar</a>
-          </li>
-
-        </ul>
-
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="mail-outline"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
-
-      <div class="footer-bottom">
-
-        <ul class="social-list">
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-skype"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="mail-outline"></ion-icon>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </footer>
+    </footer>
 
     <!-- 
     - custom js link
