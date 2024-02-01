@@ -66,7 +66,7 @@
         </nav>
 
         <div class="header-actions">
-          <a href="brands.html" class="btn" aria-labelledby="aria-label-txt">
+          <a href="./registation/registration.php" class="btn" aria-labelledby="aria-label-txt">
             <ion-icon name="car-outline"></ion-icon>
 
             <span id="aria-label-txt">Sign up</span>
