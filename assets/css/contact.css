@@ -192,6 +192,11 @@ textarea.form-control {
   margin-top: 170px;
 }
 
+@media screen and (max-width: 800px) {
+    .vl {
+      display: none; 
+    }
+  }
 
 .faq-container {
     max-width: 600px;
