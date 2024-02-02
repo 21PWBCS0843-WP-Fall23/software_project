@@ -1023,7 +1023,7 @@ h1,
 @media (min-width: 768px) {
     h1,
     .h1 {
-        font-size: 3rem;
+        /* font-size: 3rem; */
         font-weight: 500;
         line-height: 1.25
     }
